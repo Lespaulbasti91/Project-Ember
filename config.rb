@@ -1,4 +1,4 @@
 http_path = '/'
 css_dir = '/app/styles'
-sass_dir = '/app/scss'
+sass_dir = '/vendor/scss'
 # output_style = :compressed
