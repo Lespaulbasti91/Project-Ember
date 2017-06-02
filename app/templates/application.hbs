@@ -1,18 +1,23 @@
-<div class="menu">
-    {{#link-to 'index'}}
-        <h1>
-            <em>SuperRentals</em>
-        </h1>
-    {{/link-to}}
-    <div class="links">
-        {{#link-to 'about'}}
-            About
-        {{/link-to}}
-        {{#link-to 'contact'}}
-            Contact
-        {{/link-to}}
+<div class="app-header">
+  <div class="container">
+    <div class="row">
+      <div class="page-header">
+        <h1>Geocaching <small>Webapp</small></h1>
+      </div>
     </div>
+  </div>
 </div>
 <div class="body">
     {{outlet}}
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          made for research only
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
