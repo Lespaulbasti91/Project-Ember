@@ -6,6 +6,7 @@ moduleForComponent('input-section', 'Integration | Component | input section', {
 });
 
 test('it renders', function(assert) {
+
   // Set any properties with this.set('myProperty', 'value');
   // Handle any actions with this.on('myAction', function(val) { ... });
 
