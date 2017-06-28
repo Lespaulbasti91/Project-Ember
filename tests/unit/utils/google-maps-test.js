@@ -1,4 +1,4 @@
-import googleMaps from 'project-ember/utils/google-maps';
+import googleMaps from 'ember-quickstart/utils/google-maps';
 import { module, test } from 'qunit';
 
 module('Unit | Utility | google maps');

@@ -1,6 +1,5 @@
-/*jshint node:true*/
-/* global require, module */
-var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+/* eslint-env node */
+const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
@@ -20,9 +19,9 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
-    app.import('bower_components/bootstrap/dist/css/bootstrap.css');
-    app.import('bower_components/bootstrap/dist/css/bootstrap-theme.css');
-    app.import('bower_components/bootstrap/dist/js/bootstrap.js');
+  app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+  app.import('bower_components/bootstrap/dist/css/bootstrap-theme.css');
+  app.import('bower_components/bootstrap/dist/js/bootstrap.js');
 
   return app.toTree();
 };
