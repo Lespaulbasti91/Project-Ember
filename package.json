@@ -11,6 +11,7 @@
   "repository": "",
   "scripts": {
     "build": "ember build",
+    "dev": "ember server & compass watch",
     "start": "ember server",
     "test": "ember test"
   },
